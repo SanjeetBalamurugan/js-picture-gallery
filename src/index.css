@@ -1,0 +1,34 @@
+:root {
+  background-color: #1a1a1a;
+}
+
+::-webkit-file-upload-button {
+  border: none;
+  color: white;
+  background-color: white;
+}
+
+.img {
+  --size: 5rem;
+  --time: 0.2s;
+  width: calc(var(--size) * 2);
+  height: var(--size);
+  transition: width var(--time) linear, height var(--time) linear;
+}
+
+.img:hover {
+  --size: 5rem;
+  width: calc(var(--size) * 4);
+  height: calc(var(--size) * 2);
+}
+
+.clicked {
+  transition: width var(--time) linear, height var(--time) linear;
+  width: 100vw;
+  height: 100vh;
+}
+
+.remove {
+  opacity: 0;
+  pointer-events: none;
+}

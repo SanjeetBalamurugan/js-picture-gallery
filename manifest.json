@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "image viewer",
+  "short_name": "picGallery",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1A1A1A",
+  "description": "A image viewer"
+}
